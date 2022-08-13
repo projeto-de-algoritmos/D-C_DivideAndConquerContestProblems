@@ -1,45 +1,62 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Divide and Conquer Contest Problems
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 1<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
+
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0015834  | Eliseu Kadesh Rosa Assunção Júnior  |
+| 18/0037242	| Rodrigo Tiago Costa Lima   |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+O objetivo deste projeto é resolver alguns problemas de programação utilizando algoritmos de "Dividir Para Conquistar".
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C++<br>
+
+## Pré-requisitos:
+
+- g++ >= 9.4.0;
+- make >= 4.2.1;
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Existem dois arquivos para cada questão, um .cpp para a compilação e outro .txt em que há algum caso de teste designado para a questão.
 
+Para rodar qualquer uma das questões, primeiro entre na pasta da questão.
 
+```
+  cd ./nomeDaQuestão
+```
 
+Depois usando make compile o código da questão
 
+```
+  make build
+```
+
+Agora execute a questão com o binário gerado com o caso de teste exemplo.
+
+```
+  make run
+```
+
+ou simplesmente compile e rode com um só comando
+
+```
+  make
+```
+### <Nomedaquestão> - [link]()
+
+![Screenshot]()
+
+**Dificuldade:** 
+
+**Resolução:**
+
+**Questão accepted**
+
+![Screenshot]()
