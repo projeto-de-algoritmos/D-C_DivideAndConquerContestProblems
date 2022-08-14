@@ -3,15 +3,11 @@
 
 #include <bits/stdc++.h>
 #define MAX 100000
+#define IS_ODD(x) x % 2
 
 using namespace std;
 int n, k;
 vector<int> v(MAX);
-
-int is_odd(int x)
-{
-  return x % 2;
-}
 
 void unsort(int l, int r)
 {
@@ -27,7 +23,7 @@ void unsort(int l, int r)
 int main()
 {
   scanf("%d %d", &n, &k);
-  if (!is_odd(k))
+  if (!IS_ODD(k))
     printf("%d\n", -1);
   else
   {
