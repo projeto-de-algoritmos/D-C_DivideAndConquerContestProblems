@@ -51,7 +51,7 @@ ou simplesmente compile e rode com um só comando
 ```
 ### Permutation Transformation - [link](https://codeforces.com/problemset/problem/1490/D)
 
-![Screenshot]()
+![Screenshot](./Screenshots/Permutation%20Transformation/questao.png)
 
 **Dificuldade:** 1200
 
@@ -60,11 +60,11 @@ Essa questão é uma questão que solucionamos via recursão seguindo a lógica 
 
 **Questão accepted**
 
-![Screenshot]()
+![Screenshot](./Screenshots/Permutation%20Transformation/ac.png)
 
 ### Lost Numbers - [link](https://codeforces.com/problemset/problem/1167/B)
 
-![Screenshot]()
+![Screenshot](./Screenshots/Lost%20Numbers/questao.png)
 
 **Dificuldade:** 1400
 
@@ -83,11 +83,11 @@ A questão determina que teremos uma comutação do conjunto a = { 4, 8, 15, 16,
 
 **Questão accepted**
 
-![Screenshot]()
+![Screenshot](./Screenshots/Lost%20Numbers/ac.png)
 
 ### a-Good String - [link](https://codeforces.com/problemset/problem/1385/D)
 
-![Screenshot]()
+![Screenshot](./Screenshots/a-Good%20String/questao.png)
 
 **Dificuldade:** 1500
 
@@ -99,11 +99,11 @@ Tendo isso nós chamamos para cada metade uma função recursiva para calcular a
 
 **Questão accepted**
 
-![Screenshot]()
+![Screenshot](./Screenshots/a-Good%20String/ac.png)
 
 ### Merge Sort - [link](https://codeforces.com/problemset/problem/873/D)
 
-![Screenshot]()
+![Screenshot](./Screenshots/Merge%20Sort/questao.png)
 
 **Dificuldade:** 1800
 
@@ -117,4 +117,4 @@ Então, se k for ímpar, vamos tentar começar com uma permutação ordenada e t
 
 **Questão accepted**
 
-![Screenshot]()
+![Screenshot](./Screenshots/Merge%20Sort/ac.png)
