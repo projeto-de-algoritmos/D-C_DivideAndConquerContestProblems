@@ -49,11 +49,47 @@ ou simplesmente compile e rode com um só comando
 ```
   make
 ```
-### <Nomedaquestão> - [link]()
+### Permutation Transformation - [link](https://codeforces.com/problemset/problem/1490/D)
 
 ![Screenshot]()
 
-**Dificuldade:** 
+**Dificuldade:** 1200
+
+**Resolução:**
+
+**Questão accepted**
+
+![Screenshot]()
+
+### Lost Numbers - [link](https://codeforces.com/problemset/problem/1167/B)
+
+![Screenshot]()
+
+**Dificuldade:** 1400
+
+**Resolução:**
+
+**Questão accepted**
+
+![Screenshot]()
+
+### a-Good String - [link](https://codeforces.com/problemset/problem/1385/D)
+
+![Screenshot]()
+
+**Dificuldade:** 1500
+
+**Resolução:**
+
+**Questão accepted**
+
+![Screenshot]()
+
+### Merge Sort - [link](https://codeforces.com/problemset/problem/873/D)
+
+![Screenshot]()
+
+**Dificuldade:** 1800
 
 **Resolução:**
 
