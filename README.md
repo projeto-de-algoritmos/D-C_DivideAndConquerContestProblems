@@ -12,7 +12,7 @@
 
 ## Sobre 
 
-O objetivo deste projeto é resolver alguns problemas de programação utilizando algoritmos de "Dividir Para Conquistar".
+O objetivo deste projeto é resolver 4 problemas de programação do [Code Forces](https://codeforces.com/) utilizando algoritmos do tipo "Dividir Para Conquistar".
 
 ## Instalação 
 **Linguagem**: C++<br>
