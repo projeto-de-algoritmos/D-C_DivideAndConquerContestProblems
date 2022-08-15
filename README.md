@@ -81,6 +81,10 @@ ou simplesmente compile e rode com um só comando
 
 **Resolução:**
 
+Para resolver esse problema basta perceber que podemos analisar as metade da string s de forma independente, e ao final precisamos apenas comparar qual das duas tem uma quantidade mínima de mudanças para se tornar uma "a-good string", que uma string que possui n/2 "a"s em uma das suas metades.
+ 
+Tendo isso nós chamamos para cada metade uma função recursiva para calcular a quantidade de "a"s que existe para cada metade, sendo a condição de parada quando houver apenas um caractere, e basta retornar se aquele caractere é ou não um "a", e a função somará 0 se não, e 1 se sim, dai guardamos a quantidade necessária de "a"s que é n/2, subtraído desse acúmulo de quantos "a"s existem na string em uma variável, e eu final da função das duas metades, nós comparamos qual das duas gerou um resultado menor.
+
 **Questão accepted**
 
 ![Screenshot]()
@@ -92,6 +96,12 @@ ou simplesmente compile e rode com um só comando
 **Dificuldade:** 1800
 
 **Resolução:**
+
+Primeira coisa que podemos perceber é: se k é par, então não há solução, pois o número de chamadas é sempre ímpar (uma chamada no início, e cada chamada faz 0 ou 2 chamadas recursivas).
+
+Então, se k for ímpar, vamos tentar começar com uma permutação ordenada e tentar "desordenar" ela. Vamos fazer uma função unsort(l, r) que fará isso. Quando "desordenar" um segmento, podemos mantê-lo ordenado (se já fizemos chamadas suficientes) ou torná-lo não ordenado e chamar unsort(l, mid) e unsort(mid, r), se precisarmos de mais chamadas. Quando fazemos um segmento não ordenado, é melhor manter as duas metades ordenadas, uma maneira fácil de lidar com isso é trocar dois elementos do meio.
+
+É fácil ver que o número de chamadas unsort é igual ao número de chamadas mergesort para classificar a permutação resultante, então podemos usar essa abordagem para tentar obter exatamente k chamadas.
 
 **Questão accepted**
 
